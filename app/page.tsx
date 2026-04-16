@@ -554,41 +554,6 @@ export default function Home() {
                 </button>
               </form>
             </div>
-
-            <div className="form-container reveal">
-              <form onSubmit={(e) => e.preventDefault()}>
-                <div className="form-group">
-                  <label htmlFor="nome">Nome completo</label>
-                  <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="email">E-mail</label>
-                  <input type="email" id="email" name="email" placeholder="seu@email.com" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="telefone">Telefone</label>
-                  <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="servico">Tipo de serviço</label>
-                  <select id="servico" name="servico" required>
-                    <option value="">Selecione um serviço</option>
-                    <option value="redes-sociais">Gestão de Redes Sociais</option>
-                    <option value="trafego-pago">Tráfego Pago</option>
-                    <option value="identidade-visual">Identidade Visual</option>
-                    <option value="conteudo">Produção de Conteúdo</option>
-                    <option value="estrategia">Relatórios &amp; Estratégia</option>
-                    <option value="sites">Sites &amp; Landing Pages</option>
-                    <option value="outro">Outro</option>
-                  </select>
-                </div>
-                <div className="form-group">
-                  <label htmlFor="mensagem">Mensagem</label>
-                  <textarea id="mensagem" name="mensagem" placeholder="Conte-nos sobre seu projeto..." rows={4}></textarea>
-                </div>
-                <button type="submit" className="btn btn-primary btn-submit" onClick={() => window.open("https://w.app/fegaduolizecompany", "_blank")}>Solicitar Orçamento</button>
-              </form>
-            </div>
           </div>
         </section>
       </main>
